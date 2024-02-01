@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* Предотвратит прокрутку страницы, если частицы выходят за границы */
+}
+
+p{
+    font-family: 'Rethink Sans', sans-serif;
+
+
+}
+
+table td{
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.container-pos{
+    display: flex;
+    height: 800px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+#inp1{
+    width: 90px;
+    height: 70px;
+    border-radius: 40px;
+    border: 1px solid #1E90FF;
+    background-color:#1E90FF;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+
+button{
+    height: 60px;
+    width: 60px;
+}
+
+#btmin{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+#btpl{
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.fade-out {
+    opacity: 0.5;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+
+}
+
+.text-con{
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Цвет текста */
+}
+
+.pip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn-min{
+    position: relative;
+
+}
+
+.gamebtn{
+    display:flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+#gtg{
+    border: 1px solid #1E90FF;
+    background-color:#1E90FF;
+    color: white;
+    border-radius:40px ;
+    width: 140px;
+    font-size: 24px;
+    font-family: 'Rethink Sans', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.notes{
+    height: 55px;
+    width: 150px;
+    background-color:#1E90FF;
+    border: 2px solid #1E90FF;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 1740px;
+    bottom:800px;
+    margin-top: 20px;
+    color:white;
+    font-family: 'Rethink Sans', sans-serif;
+    
+}
+
+
+#particles-js{
+    background-color:#779373;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Помещаем частицы за основной контент */
+    }
+
+#back{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px solid transparent;
+    align-self: flex-start;
+}
+
+.pointer{
+    width: 40px;
+    height: 40px;
+    
+    
+}
+
+.hiden{
+    display: none;
+}
+
+.contforinput{
+    position: relative;
+}
+
+.modalwidow{
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #1E90FF;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn{
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    border: 0px solid transparent;
+    color: #1E90FF;
+    
+}
+
+.btn1{
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    border: 0px solid transparent;
+    color: #1E90FF;
+    
+}
+
+.player{
+    margin-left: 10px;
+    border: 0.3px solid black;
+    border-radius: 3px
+        
+}
+
+#btnConf1{
+    color: white;
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#btnConf2{
+    color: white;
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btnConf3{
+    color: white;
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btnConf4{
+    color: white;
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btnConf5{
+    color: white;
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container-for-kart{
+    position: relative;
+    width: 580px;
+    height: 200px;
+    left: -450px;
+    top: -270px;
+
+}
+
+.player{
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+}
+
+.p1{
+    position: absolute;
+}
+
+.p2{
+    position: absolute;
+}
+
+.p3{
+    position: absolute;
+}
+
+.p4{
+    position: absolute;
+}
+
+.p5{
+    position: absolute;
+}
+
+.tdinput{
+    background-color: transparent;
+    border: 0px solid transparent;
+
+
+}

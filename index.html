@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="back"> <img src="nazad.png" alt="" class="pointer"></button>
+    <div id = "mymw" class="modalwidow">
+        <div class="centeredmessage">
+
+            <p>If you click, yes the game will stop</p>
+            <button id="confirm" class="btn">YES</button>
+            <button id="discinfirm" class="btn1">NO</button>        
+        </div>
+    </div>
+    
+    <div class="container-pos">
+        <div class="kart1"></div>
+        <div class="kart2"></div>
+        <div class="kart3"></div>
+        <div class="kart4"></div>
+        <div class="kart5"></div>
+        <div class="contforinput" id="00"></div>
+        <div id="particles-js"></div>
+        <div class="text-con" id="text-con">
+            <div class="text">
+                <p>Specify how many people will play with you </p>
+            </div>
+            <div class="pip">
+                <button id="btmin">-</button>
+                <input type="text" value="0" id="inp1">
+                <button id="btpl">+</button>
+                
+            </div>
+            <div class="gamebtn">
+                <button id="gtg">Go to Game!</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
+    <script src="nastroy.js"></script>
+</body>
+</html>
